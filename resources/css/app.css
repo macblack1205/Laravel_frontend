@@ -1,0 +1,131 @@
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* npm run dev  */
+/* run this in terminal before start    */
+
+
+.bg {
+    @apply fixed inset-0 bg-custom-bg bg-cover bg-top z-[-1];
+}
+c
+.bg-overlay {
+    @apply fixed inset-0 bg-gray-500 dark:bg-gray-900 opacity-25 z-[-1];
+}
+
+.header {
+    @apply flex justify-between items-center p-4 md:p-4 bg-gray-500 dark:bg-gray-900 dark:text-gray-300;
+}
+
+.logo {
+    @apply font-nohemi text-3xl md:text-2xl hover:text-white dark:hover:text-yellow-500;
+}
+
+.dual-button{
+    @apply flex-row justify-center m-0 space-x-1 border bg-gray-300 dark:border-gray-800 rounded-full p-0.5;
+}
+.dual-black{
+    @apply flex items-center m-0 px-2 md:px-4 py-1 md:py-2 rounded-full text-base font-medium transition-all duration-200 bg-black text-white hover:bg-gray-900;
+}
+.dual-dark{
+    @apply hidden md:flex items-center m-0 px-2 md:px-4 py-1 md:py-2 rounded-full text-base font-medium transition-all duration-200 bg-black text-white hover:bg-gray-900 dark:hover:shadow-sm dark:hover:shadow-gray-200;
+}
+.dual-white{
+    @apply flex items-center m-0 px-2 md:px-4 py-1 md:py-2 rounded-full text-base font-medium transition-all duration-200 bg-gray-300 text-black hover:bg-gray-200;
+}
+.dual-button-form{
+    @apply flex-col md:flex-row justify-center md:space-x-1 md:border md:bg-gray-300 dark:border-gray-800 rounded-full p-0.5 space-y-1 md:flex md:space-y-0 md:items-center ;
+}
+.dual-black-form{
+    @apply w-full flex items-center justify-center m-0 px-2 md:px-4 py-1 md:py-2 rounded-full text-base font-hkgrotesk-regular focus:outline-none focus:outline-transparent transition-all duration-200 bg-black hover:bg-gray-900;
+}
+
+.dual-white-form{
+    @apply w-full flex items-center m-0 px-2 md:px-4 py-1 md:py-2 rounded-full text-base font-hkgrotesk-regular focus:outline-none focus:outline-transparent transition-all duration-200 bg-gray-300 hover:bg-gray-200;
+}
+.login-form, .register-form {
+    @apply bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md;
+}
+
+.alert {
+    @apply p-1 md:p-3 m-0 border border-transparent rounded;
+}
+
+.alert-success {
+    @apply text-green-700 bg-green-100 border-green-300;
+}
+
+.alert-danger {
+    @apply text-red-700 bg-red-100 border-red-300;
+}
+
+.input-field {
+    @apply w-full p-2  rounded border font-hkgrotesk-regular border-gray-300 dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-500 font-hkgrotesk text-black dark:text-white;
+}
+
+.passfield {
+    @apply space-y-4;
+}
+
+.form-heading {
+    @apply text-4xl font-nohemi mb-4 text-center;
+}
+
+.form-button {
+    @apply w-full bg-teal-700 text-white p-3 rounded hover:bg-teal-800 transition font-hkgrotesk;
+}
+
+.form-text {
+    @apply text-center font-hkgrotesk text-black dark:text-gray-200;
+}
+
+.form-link {
+    @apply text-teal-500 hover:underline;
+}
+
+.error-text {
+    @apply text-red-500 text-sm;
+}
+
+.register-container {
+    @apply flex justify-center items-center min-h-screen bg-gray-200 dark:bg-gray-900;
+}
+.main-container {
+    @apply bg-opacity-50 bg-gray-500 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur-md p-2 md:p-4 rounded-lg mt-10 w-11/12 md:w-4/5 md:mx-auto;
+}
+
+.product-container {
+    @apply text-white p-1 md:p-2 rounded-md m-0 md:m-1; 
+}
+
+/* Adjusting button styles for icon buttons */
+button {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full;
+}
+
+hr {
+    @apply border-gray-700 mt-4;
+}
+
+.iconStyle {
+    @apply bg-gray-200 py-2 px-4 rounded-full transition-colors duration-300 hover:bg-gray-400;
+}
+
+/* for text overflow disappear after 20 words */
+.truncate-text {
+    @apply relative max-h-20 overflow-hidden; /* Tailwind classes for max-height and overflow */
+}
+.cust-btn{
+    @apply bg-gray-400 text-white font-bold rounded-full transition-colors duration-300 hover:bg-gray-200;
+}
+
+.btn-svg{
+    @apply bg-transparent hover:bg-transparent border-none focus:outline-none p-0;
+}
+
+.svg{
+    @apply focus:outline-none size-6 hover:bg-none text-gray-300 hover:text-gray-100;
+}

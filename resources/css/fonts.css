@@ -1,0 +1,261 @@
+/* npm run dev  */
+/* run this in terminal before start    */
+
+/* absans */
+@font-face {
+  font-family: 'Absans';
+  src: url('/resources/assets/absans/absans-regular.otf') format('opentype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal; 
+}
+
+/* Geist */
+@font-face {
+  font-family: 'Geist';
+  src: url('/resources/assets/Geist/Geist-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/resources/assets/Geist/Geist-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/resources/assets/Geist/Geist-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/resources/assets/Geist/Geist-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/resources/assets/Geist/Geist-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/resources/assets/Geist/Geist-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/resources/assets/Geist/Geist-Thin.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/resources/assets/Geist/Geist-UltraBlack.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/resources/assets/Geist/Geist-UltraLight.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* HKGrotesk */
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-SemiboldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-ExtraBoldItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-ExtraLight.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-ExtraLightItalic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-Thin.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-ThinItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/resources/assets/hkgrotesk/HKGrotesk-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Nohemi */
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/resources/assets/nohemi/Nohemi-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/resources/assets/nohemi/Nohemi-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/resources/assets/nohemi/Nohemi-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/resources/assets/nohemi/Nohemi-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/resources/assets/nohemi/Nohemi-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/resources/assets/nohemi/Nohemi-Thin.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/resources/assets/nohemi/Nohemi-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/resources/assets/nohemi/Nohemi-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('/resources/assets/nohemi/Nohemi-ExtraLight.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
