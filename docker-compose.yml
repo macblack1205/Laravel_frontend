@@ -1,0 +1,15 @@
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "81:81"
+    volumes:
+      - .:/var/www
+#     networks:
+#       - kle-network
+
+# networks:
+#   kle-network:
